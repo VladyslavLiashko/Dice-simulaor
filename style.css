@@ -1,0 +1,98 @@
+html{
+    margin: 0;
+}
+body{
+    background-color: gray;
+    margin: 0;
+    height: 100%;
+}
+.wrapper {
+    max-width: 80%;
+    margin: auto;
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 3%;
+    background-color: black;
+    color: white;
+}
+header p{
+    font-size: 15px;
+}
+header p a{
+    text-decoration: none;
+    color: gray;
+}
+header p a:hover{
+    color: red;
+    transition: 1s;
+}
+.cubik {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 2%; */
+    margin-bottom: 2%;
+}
+.cubik img{
+    width: 8%;
+    margin-bottom: 9.9%;
+    margin-top: 12%;
+}
+#spin{
+    width: 30%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+button{
+    width: 15%;
+    height: 5vh;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 43%;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: gray;
+    /* width: 18%;
+    height: 7vh; */
+    transition: 2s;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    margin-bottom: 0;
+}
+
+form p{
+    font-size: 20px;  
+}
+
+#numberInp{
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    width: 5%;
+    height: 20px;
+}
+#submit{
+    width: 15%;
+    height: 5vh;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+}
+#submit:hover{
+    background-color: gray;
+    transition: 2s;
+}
